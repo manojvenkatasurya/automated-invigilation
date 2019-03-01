@@ -1,0 +1,192 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>valid</servlet-name>
+		<servlet-class>validate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>valid</servlet-name>
+		<url-pattern>/validating</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>c_teacher</servlet-name>
+		<servlet-class>createteacher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>c_teacher</servlet-name>
+		<url-pattern>/create_teacher</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>dayssch</servlet-name>
+		<servlet-class>daysschedule</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>dayssch</servlet-name>
+		<url-pattern>/enter_schedule</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>logout</servlet-name>
+		<servlet-class>logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>logout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>teacher_data</servlet-name>
+		<servlet-class>teacherdata</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>teacher_data</servlet-name>
+		<url-pattern>/t_data</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>view</servlet-name>
+		<servlet-class>viewsch</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>view</servlet-name>
+		<url-pattern>/view_data</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>update</servlet-name>
+		<servlet-class>update</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>update</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>yearsel</servlet-name>
+		<servlet-class>year_sel</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>yearsel</servlet-name>
+		<url-pattern>/year_select</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>examsel</servlet-name>
+		<servlet-class>examsel</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>examsel</servlet-name>
+		<url-pattern>/exam_sel</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>createexam</servlet-name>
+		<servlet-class>createexam</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>createexam</servlet-name>
+		<url-pattern>/create_exam</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>examdetails</servlet-name>
+		<servlet-class>examdetails</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>examdetails</servlet-name>
+		<url-pattern>/exam_details</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>generatesch</servlet-name>
+		<servlet-class>process</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>generatesch</servlet-name>
+		<url-pattern>/generate_sch</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>print</servlet-name>
+		<servlet-class>print</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>print</servlet-name>
+		<url-pattern>/print</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>interprint</servlet-name>
+		<servlet-class>interprint</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>interprint</servlet-name>
+		<url-pattern>/interprint</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>temp</servlet-name>
+		<servlet-class>temp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>temp</servlet-name>
+		<url-pattern>/tempt</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>reset</servlet-name>
+		<servlet-class>reset</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reset</servlet-name>
+		<url-pattern>/reset</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>recexamsel</servlet-name>
+		<servlet-class>recexamsel</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>recexamsel</servlet-name>
+		<url-pattern>/recexamsel</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>recprint</servlet-name>
+		<servlet-class>recprint</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>recprint</servlet-name>
+		<url-pattern>/recprint</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>periods</servlet-name>
+		<servlet-class>periods</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>periods</servlet-name>
+		<url-pattern>/periods</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>periodsupd</servlet-name>
+		<servlet-class>periodsupd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>periodsupd</servlet-name>
+		<url-pattern>/periodsupd</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>td_validate</servlet-name>
+		<servlet-class>tdval</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>td_validate</servlet-name>
+		<url-pattern>/validating_teachers_schedule</url-pattern>
+	</servlet-mapping>
+
+</web-app>
